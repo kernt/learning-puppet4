@@ -30,6 +30,7 @@ $setupscript = <<END
 You should start by enabling the Puppet Labs Puppet Collection 1 release repo
    sudo yum install http://yum.puppetlabs.com/puppetlabs-release-pc1-el-7.noarch.rpm
 
+# new for puppet in version 5 use:  yum -y install https://yum.puppetlabs.com/puppet5/puppet5-release-el-7.noarch.rpm
 Then install Puppet Agent and its companion packages
    sudo yum install -y puppet-agent
    
